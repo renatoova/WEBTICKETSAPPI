@@ -23,6 +23,7 @@ namespace WEBTICKETSAPPI.IOC
 
             service.AddScoped<IAveriasServices, AveriasServices>();
             service.AddScoped<IUsuarioServices, UsuarioServices>();
+            service.AddScoped<IRolServices, RolServices>();
         }
     }
 }
